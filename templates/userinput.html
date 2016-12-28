@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tiny Project</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div>
+  			<h1>User Input</h1>	
+     <p>
+     Please enter a stock ticker eg. GOOG, and check desired features.
+     </p>
+   <form id='userinputform' method='post' action='index' > <!-- action is the URL you want to move to next-->
+   <p>
+   Ticker symbol: <input type='text' name='ticker' />
+   </p>
+   <p>
+   <input id='close' type='checkbox' name='close' value ='1' /> closing price <br />
+   <input id='adjclose' type='checkbox' name='adj_close' value ='1' /> adjusted closing price <br />
+   <input id ='open' type='checkbox' name='open' value ='1'/> opening price <br />
+   <input id ='adjopen' type='checkbox' name='adj_open'value ='1'/> adjusted opening price <br />
+   </p>
+   <p>
+    <input type='submit' value='Submit' /> <!-- value is the text that will appear on the button. -->
+   </p>
+</form>
+     
+     
+     </div>
+	</body>
+</html>
